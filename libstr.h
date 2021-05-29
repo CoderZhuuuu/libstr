@@ -11,7 +11,7 @@
 #include <functional> /* For std::function */
 
 /* Helper functions */
-namespace libstr {
+namespace {
 
 	/* Used to get tuple in runtime */
 	template <typename Arg>
