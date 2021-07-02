@@ -411,7 +411,7 @@ namespace libstr {
 							throw std::invalid_argument("Index out of range");
 						}
 						else {
-							result += std::to_string(GetArgByIndex(argTuple, index));
+							result += std::to_string(GetTupleArgByIndex(argTuple, index));
 						}
 					}
 					else {
